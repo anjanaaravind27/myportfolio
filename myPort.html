@@ -1,0 +1,205 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./tailwind.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "qNMmZOI4Y9Gs_9doC",
+      });
+   })();
+</script>
+</head>
+<body class="bg-gray-200 text-gray-800">
+
+  
+
+  
+ <header class="flex justify-between items-center px-6 py-4 bg-white shadow-md sticky top-0 z-10">
+
+  <h1 class="text-2xl font-bold text-gray-800">MY PORTFOLIO</h1>
+
+  <nav id="menu" class="md:flex space-x-6 font-bold">
+    <a href="#home" class="hover:text-gray-500">HOME</a>
+    <a href="#about" class="hover:text-gray-500">ABOUT</a>
+    <a href="#skills" class="hover:text-gray-500">SKILLS</a>
+    <a href="#projects" class="hover:text-gray-500">PROJECTS</a>
+    <a href="#contact" class="hover:text-gray-500">CONTACT</a>
+  </nav>
+
+ 
+  <button id="menu-btn" class="md:hidden text-2xl text-gray-700">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+  <div class="hidden flex-col">
+  <nav id="menu" class="space-x-6 font-bold">
+    <a href="#home" class="hover:text-gray-500">HOME</a>
+    <a href="#about" class="hover:text-gray-500">ABOUT</a>
+    <a href="#skills" class="hover:text-gray-500">SKILLS</a>
+    <a href="#projects" class="hover:text-gray-500">PROJECTS</a>
+    <a href="#contact" class="hover:text-gray-500">CONTACT</a>
+  </nav>
+  </div>
+ </header>
+
+
+  <section id="home" class="  min-h-screen flex flex-col gap-1 items-center justify-center  text-center">
+    <div class="max-w-xl text-center ">
+      <h2 class="text-5xl md:text-5xl font-bold mb-4">Hi, I'm <span class="text-lavender-400">ANJANA A P</span></h2>
+      <p class="text-gray-600 mb-6 ">
+        I'm ready to be a Front-End Developer passionate about build beautiful, user-friendly web applications using modern tools like React, Tailwind, JS , etc.
+      </p>
+    </div>
+    <div class="flex p-0 gap-10 pb-10">
+      <a href="https://github.com/anjanaaravind27" target="_blank" rel="noopener noreferrer">
+        <img src="./download.png" alt="github" class="size-10" >
+      </a>
+      <a href="https://www.linkedin.com/in/anjana-a-p-42794833a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bey40Yfg7SMi%2FpIvv%2FsPnMw%3D%3D" target="_blank" rel="noopener noreferrer">
+        <img src="./download (1).png" alt="linkedin" class="size-10">
+      </a>
+    </div>
+    <div class="items-center justify-center transition-shadow 
+                  duration-200 hover:scale-105">
+    <img src="./WhatsApp Image 2025-11-12 at 14.51.44_7ec80d7c.jpg" alt="anjana pic" 
+    class="justify-center text-center align-center size-80 md:w-80 rounded-full object-cover mx-auto">
+    </div>
+  </section>
+
+  <section id="about"class="scroll-mt-20 bg-gray-100 py-20">
+    <h3 class="text-3xl font-bold mb-10 pl-10 text-center">ABOUT ME</h3>
+    <div class="px-20 text-2xl pb-20 text-justify">
+      <p>I'm a passionate Web Developer who loves turning ideas into interactive and visually appealing digital experiences. 
+         With a solid foundation in HTML, CSS, and JavaScript,
+         I build responsive, user-friendly websites and
+         I enjoy working with modern frameworks and tools to bring projects to life — from crafting clean UI layouts to optimizing performance and functionality.
+         Whether it's developing a simple landing page or a full-featured web app, I focus on writing clean code, improving user experience, 
+         and continuously learning new technologies to stay ahead in the ever-evolving web world.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="scroll-mt-20 py-20">
+    <h3 class="text-3xl font-bold mb-10 text-center">SKILLS</h3>
+    <div class="flex flex-wrap justify-around w-full text-center gap-8 md:gap-10">
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow 
+                  duration-200 hover:scale-105"> 
+         <img src="./html5-day.svg" alt="html" class="size-40"  >
+         <h3 class="text-xl font-semibold mb-2 r">HTML</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow 
+                  duration-200 hover:scale-105">
+         <img src="./css3.png" alt="css" class="size-40  transition-transform duration-100 ">
+         <h3 class="text-xl font-semibold mb-2">CSS</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow 
+                  duration-200 hover:scale-105">
+         <img src="./tailwindcss-mark.d52e9897.svg" alt="tailwind" class="size-40">
+         <h3 class="text-xl font-semibold mb-2 ">TAILWIND</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow 
+                  duration-200 hover:scale-105">
+         <img src="./js-brands.svg" alt="js" class="size-40">
+         <h3 class="text-xl font-semibold mb-2">JAVASCRIPT</h3>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <section id="projects" class="scroll-mt-20 px-8 md:px-20 py-16 bg-gray-100 ">
+    <h3 class="text-3xl font-bold mb-10 text-center">PROJECTS</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-20">
+      <div class="bg-white p-6  shadow hover:shadow-lg ">
+        <h4 class="text-xl font-semibold mb-2 text-center">Project One</h4>
+        <p class="text-gray-600 text-sm pb-5 text-center">A Navigation bar using css styles</p>
+        <img src="./Screenshot (8).png" alt="Project 2" class="rounded mb-4 h-60 w-70">
+        
+      </div>
+    
+      <div class="bg-white p-6 items-center justify-center  shadow hover:shadow-lg ">
+        <h4 class="text-xl font-semibold mb-2 text-center">Project Two</h4>
+        <p class="text-gray-600 text-sm pb-5 text-center">A model  webpage of furniture shopping</p>
+        <img src="./Screenshot (5).png" alt="Project 1" class="rounded mb-4  ">
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="px-8 md:px-20 pt-16 text-center">
+    <h3 class="text-3xl font-bold mb-6">CONTACT ME</h3>
+    <p class="text-gray-600 mb-6"> do you have a project on your mind ? Let's talk about it!</p>
+     
+    
+    
+    <div class=" flex justify-center text-left">
+      <form class="w-full md:w-1/2 bg-white p-6 md:p-20 rounded-lg shadow-md">
+         
+         <label for="name">NAME:</label>
+         <input type="text" placeholder="enter your name" id="name" 
+         class=" w-full p-5 border border-gray-500 rounded mb-5">
+     
+         <label for="mail">E-MAIL ID:</label>
+         <input type="email" placeholder="enter your e-mail" id="mail"
+         class=" w-full p-5 border border-gray-500 rounded mb-5 ">
+      
+         <label for="msg">MESSAGE:</label>
+         <input type="text" placeholder="type your message" id="msg"
+         class=" w-full p-10 border border-gray-500 rounded mb-5 ">
+      
+       <div class="flex justify-center">
+         <button type="button" class="flex items-center justify-center px-8 py-3 bg-gray-600 text-white 
+                font-bold rounded hover:bg-gray-800 transition" onclick="funcname()">
+           Submit
+        </button>
+       </div>
+
+       </form>
+    </div>
+
+    <div class="mb-10 flex flex-col md:flex-row justify-center gap-20 font-bold py-10 text-left">
+    <div class="flex items-center gap-3 hover:text-gray-500">
+      <i class="fa-solid fa-envelope text-gray-700"></i>
+      <p>anjanaaravind2793@gmail.com</p>
+    </div>
+    <div class="flex items-center gap-3 hover:text-gray-500">
+      <i class="fa-solid fa-phone text-gray-700"></i>
+      <p>+91 9746890095</p>
+    </div>
+    <div class="flex items-center gap-3 hover:text-gray-500">
+      <i class="fa-solid fa-location-dot text-gray-700"></i>
+      <p>Malappuram, Kerala, India</p>
+    </div>
+  </div>
+   
+  </section>
+
+  <footer class="bg-white py-10 md:py-20">
+    <div class="flex justify-center  ">
+      <p>© 2025 Anjana A P. All rights reserved.</p>
+    </div>
+    <div class="flex justify-center gap-3 pt-10 ">
+      <a href="https://github.com/anjanaaravind27" target="_blank" rel="noopener noreferrer">
+        <img src="./download.png" alt="github" class="size-10" >
+      </a>
+      <a href="https://www.linkedin.com/in/anjana-a-p-42794833a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bey40Yfg7SMi%2FpIvv%2FsPnMw%3D%3D" 
+      target="_blank" rel="noopener noreferrer">
+        <img src="./download (1).png" alt="linkedin" class="size-10">
+      </a>
+  </footer>
+
+
+  
+<script src="https://kit.fontawesome.com/c28836c5fb.js" crossorigin="anonymous"></script>
+</body>
+</html>z
+
+
